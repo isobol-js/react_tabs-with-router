@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
-import { Tab } from '../types/Tabs';
 import React from 'react';
+import { Tab } from '../types/Tab';
 
 const tabs: Tab[] = [
   { id: 'tab-1', title: 'Tab 1', content: 'Some text 1' },
